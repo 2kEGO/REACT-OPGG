@@ -1,0 +1,27 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", "Helvetica Neue";
+}
+
+.header-ads-container {
+    width: 100%;
+    background-color: #000000;
+    height: 10vh;
+}
+
+.header-ads {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-ads-link img {
+    height: 100%;
+    width: 50% ;
+}
