@@ -6,22 +6,28 @@
   font-family: "Inter", "Arial";
 }
 
+/* TOGGLE SHOW */
+
+.show {
+  display: none;
+}
+
 /* HEADER SECTION */
 
 header {
   background-color: #1c1c1f;
-  width: 100%;
-  height: 5vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 .header-section{
   width: 100%;
-  height: 100%;
+  height: 5vh;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  /* flex-wrap: wrap; */
 }
 
 /* LEFT SIDE */
@@ -202,3 +208,108 @@ header {
 
 /* Header Ads Section */
 
+/* HEADER ADS */
+
+.header-ads-container {
+  width: 100%;
+  background-color: #000000;
+  height: 10vh;
+}
+
+.header-ads {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px
+}
+
+.header-ads-link {
+  width: 60%;
+  height: 100%;
+}
+
+.header-ads img {
+  width: 100%;
+  height: 100%;
+}
+
+.header-ads button {
+  width: 24px;
+  height: 24px;
+  background-color: transparent;
+  color: white;
+  border: 0;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.header-blue-container {
+  width: 100%;
+  height: 5vh;
+  background-color: #5383e8;
+  display: flex;
+  justify-content: center;
+
+}
+
+.header-blue-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 70%;
+}
+
+.header-blue-leftside{
+  display: flex;
+  height: 100%;
+}
+.header-blue-leftside ul{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-between;
+  text-decoration: none;
+  gap: 20px;
+  height: 100%;
+  
+}
+
+.headerblue-list-text {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+}
+
+
+.headerblue-list-item{
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+/* HEADER BLUE RIGHT SIDE */
+
+.header-blue-rightside{
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.header-blue-rightside a img {
+  width: 24px;
+  height: 24px;
+}
+
+.header-blue-rightside a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 6rem;
+  color: white;
+  font-size: 14px;
+}

@@ -24,6 +24,11 @@ import gigsTransparent from './assets/Gig_transparent.webp';
 import gigsColored from './assets/Gig.webp';
 
 
+// ADS HEADER
+
+import imgAds from './assets/ads-img.webp';
+
+
 function Header(){
     return(
 
@@ -108,6 +113,51 @@ function Header(){
                     <button className="header-right-button" id='signInButton'>
                         <span>Sign in</span>
                     </button>
+                </div>
+            </div>
+            <div className='header-ads-container'>
+                <div className="header-ads">
+                    <a href="#" className='header-ads-link'>
+                        <img src={imgAds}/>
+                    </a>
+                    <button className='btn ads'>X</button>
+                </div>
+            </div>
+            <div className="header-blue-container">
+                <div className="header-blue-content">
+
+                    <div className="header-blue-leftside">
+                        <ul>
+                            <li className='headerblue-list-item'>
+                                <a href="#" className='headerblue-list-text'><span >Home</span></a>
+                            </li>
+                            <li className='headerblue-list-item'>
+                                <a href="#" className='headerblue-list-text'><span >Champions</span></a>
+                            </li>
+                            <li className='headerblue-list-item'>
+                                <a href="#" className='headerblue-list-text'><span >Game modes</span></a>
+                            </li>
+                            <li className='headerblue-list-item'>
+                                <a href="#" className='headerblue-list-text'><span >Leaderboards</span></a>
+                            </li>
+                            <li className='headerblue-list-item'>
+                                <a href="#" className='headerblue-list-text'><span >Pro spectate</span></a>
+                            </li >
+                            <li className='headerblue-list-item'>
+                                <a href="#" className='headerblue-list-text'><span >Stats</span></a>
+                            </li>
+                            <li className='headerblue-list-item'>
+                                <a href="#" className='headerblue-list-text'><span >Multi-search</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div className="header-blue-rightside">
+                        <a href="">
+                            <img src="" alt="" />
+                            <span>My Page</span>
+                        </a>
+                    </div>
                 </div>
             </div>
         </header>

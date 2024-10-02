@@ -1,0 +1,30 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", "Arial";
+}
+
+.body{
+    width: 100%;
+    background-color: #1c1c1f;
+}
+
+.body-container {
+    margin: 0 20% 0 20%;
+
+}
+
+.body-image-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.body-image-container img {
+    width: 100%;
+    height: 40vh;
+}
