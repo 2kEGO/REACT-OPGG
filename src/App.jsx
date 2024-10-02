@@ -1,12 +1,12 @@
 import Header from './Header.jsx';
-import Header2 from './Header/Header2/Header2.jsx';
+import Body from "./body/Body1.jsx"
 
 
 function App() {
   return (
     <>
       <Header/>
-      <Header2/>
+      <Body/>
     </>
   );  
 }

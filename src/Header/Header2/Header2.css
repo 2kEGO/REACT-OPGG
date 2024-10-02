@@ -7,6 +7,8 @@
     font-family: "Inter", "Helvetica Neue";
 }
 
+/* HEADER ADS */
+
 .header-ads-container {
     width: 100%;
     background-color: #000000;
@@ -19,9 +21,27 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 20px
 }
 
-.header-ads-link img {
+.header-ads-link {
+    width: 60%;
     height: 100%;
-    width: 50% ;
 }
+
+.header-ads img {
+    width: 100%;
+    height: 100%;
+}
+
+.header-ads button {
+    width: 24px;
+    height: 24px;
+    background-color: transparent;
+    color: white;
+    border: 0;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
